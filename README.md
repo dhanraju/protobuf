@@ -5,7 +5,7 @@ To tryout protobufs examples
 Ref: https://developers.google.com/protocol-buffers/docs/overview?csw=1
 
 # How do they work?
-* Specify the information we're serializing to be structured by defining protocl buffer message types in <span style="color:red">.proto</span> files.
+* Specify the information we're serializing to be structured by defining protocl buffer message types in <em><span style="color:red;">.proto</span></em> files.
 * Each proto buf message is a small logical record of information, containing a series of <em><strong style="color: red;">name-value pairs</strong></em>.
 
 <pre><code>
