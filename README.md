@@ -6,7 +6,7 @@ Ref: https://developers.google.com/protocol-buffers/docs/overview?csw=1
 
 # How do they work?
 <ul>
-<li>Specify the information we're serializing to be structured by defining protocl buffer message types in <span style="color: blue">.proto</span> files.</li>
+<li>Specify the information we're serializing to be structured by defining protocl buffer message types in <span style="color: #6d9eeb">.proto</span> files.</li>
 <li>Each proto buf message is a small logical record of information, containing a series of <em><strong style="color: red;">name-value pairs</strong></em>.</li>
 </ul>
 
