@@ -6,8 +6,8 @@ Ref: https://developers.google.com/protocol-buffers/docs/overview?csw=1
 
 # How do they work?
 <ul>
-* Specify the information we're serializing to be structured by defining protocl buffer message types in ***.proto*** files.
-* Each proto buf message is a small logical record of information, containing a series of ***name-value pairs***.
+<li>Specify the information we're serializing to be structured by defining protocl buffer message types in ***.proto*** files.</li>
+<li>Each proto buf message is a small logical record of information, containing a series of ***name-value pairs***.</li>
 </ul>
 
 <pre><code>
