@@ -5,8 +5,10 @@ To tryout protobufs examples
 Ref: https://developers.google.com/protocol-buffers/docs/overview?csw=1
 
 # How do they work?
-* Specify the information we're serializing to be structured by defining protocl buffer message types in .proto files.
-* Each proto buf message is a small logical record of information, containing a series of name-value pairs.
+<ul>
+* Specify the information we're serializing to be structured by defining protocl buffer message types in ***.proto*** files.
+* Each proto buf message is a small logical record of information, containing a series of ***name-value pairs***.
+</ul>
 
 <pre><code>
 message Person {
@@ -29,5 +31,5 @@ message Person {
 }
 </code></pre>
 
-* Each message type has one or more uniquely numbered fields, and each field has a name and a value type
-* Value types can be numbers (int or float), booleans, strings, raw bytes or even other protocol buffer message types, allowing us to structure our data hierarchically.
+* <em>Each message type</em> has one or more uniquely numbered fields, and each field has a name and a value type
+* <em>Value types can be numbers</em> (int or float), booleans, strings, raw bytes or even other protocol buffer message types, allowing us to structure our data hierarchically.
